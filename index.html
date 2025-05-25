@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - User Tracking App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container login-container">
+    <h2>Login</h2>
+    <form id="loginForm" action="http://localhost:5000/api/auth/login" method="POST">
+      <label for="username">Username or Email</label>
+      <input type="text" id="username" name="username" required placeholder="Enter your username or email" />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required placeholder="Enter your password" />
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

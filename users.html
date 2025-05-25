@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>User List - Admin Panel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="navbar/access_denied.js"></script>
+</head>
+<body>
+  <div id="navContainer"></div>
+
+  <main class="container userlist-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Example user row -->
+        <tr>
+          <td>John Doe</td>
+          <td>john@example.com</td>
+          <td>9876543210</td>
+          <td>User</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <!-- More users will be added dynamically or server-side -->
+      </tbody>
+    </table>
+  </main>
+  <script src="navbar/nav.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
